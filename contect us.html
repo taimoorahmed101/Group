@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect Us</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+    <style>
+        body{
+            background: #e8e8e8;
+        }
+        .form-area{
+            padding-top: 7%;
+        }
+        .row.single-form{
+            box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+        }
+        .left{
+            background: blueviolet;
+            padding: 200px 93px;
+        }
+        .left h2{
+            font-family: poppins;
+            color: #fff;
+            font-weight: 700;
+            font-size: 48px;
+        }
+        .left h2 span{
+            font-weight: 100;
+        }
+        .right{
+            padding: 70px 100px;
+            position: relative;
+        }
+        .right i{
+            position: absolute;
+            font-size: 80px;
+            left: -27px;
+            top: 40%;
+            color: #fff;
+        }
+        .form-control{
+                border: 2px solid #000;
+        }
+        .right button{
+            border: none;
+            border-radius: 0;
+            background: #252525;
+            width: 180px;
+            color: #fff;
+            padding: 15px 0;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .right button:hover{
+            background: #252525;
+        }
+        @media (min-width: 786px) and (max-width: 991px){
+            .right i{
+                top: -52;
+                transform: rotate(90deg);
+                left: 50%;
+            }
+        }
+        @media (max-width: 767px){
+            .left h2{
+                padding: 90px 15px;
+                text-align: center;
+            }
+
+        }
+        .left h2{
+            font-size: 25px;
+        }
+        .right{
+            padding: 25px;
+        }
+        .right i{
+            top: -25;
+                transform: rotate(90deg);
+                left: 45%;
+}
+        .right button{
+            width: 150px;
+            padding: 12px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-area">
+        <div class="container">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+                        <h2><span>Contact Us For</span> <br>M.K FURNITURE</h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="right">
+                        <i class="fa fa-caret-lefr"></i>
+                        <form>
+                            <div class="mb-3 form-check">
+                              <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text"></div>
+                            </div>
+                            <div class="mb-3 form-check">
+                              <label for="exampleInputPassword1" class="form-label">Email/Phone Number</label>
+                              <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <label for="exampleInputPassword1" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3 form-check">
+                                <label for="exampleInputPassword1" class="form-label">Message</label>
+                                <textarea  class="form-control" id="exampleInputPassword1"></textarea>
+                              </div>
+                           
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
